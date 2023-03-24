@@ -5,14 +5,14 @@ public class Main {
         int bonus;
 
         if (add > 1000) {
-            bonus =add / 100;
-           // "суммарный бонус=bonus";
+            bonus = add / 100;
+            // "суммарный бонус=bonus";
         } else {
-           // "суммарный бонус=0";
-            bonus=0;
+            // "суммарный бонус=0";
+            bonus = 0;
 
         }
-        int sum= started+add+bonus;
+        int sum = started + add + bonus;
         System.out.println(bonus);
         System.out.println(sum);
     }
