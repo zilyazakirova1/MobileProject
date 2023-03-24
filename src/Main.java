@@ -4,7 +4,7 @@ public class Main {
         int add = 1200;
         int bonus;
 
-        if (add >= 1000) {
+        if (add > 1000) {
             bonus =add / 100;
            // "суммарный бонус=bonus";
         } else {
